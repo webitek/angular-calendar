@@ -1,0 +1,32 @@
+.week{
+  display: flex;
+  &-date{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid;
+    font-size: 50px;
+    &.disabled{
+      .date-text{
+        opacity: .3;
+      }
+    }
+    &.today{
+      background: grey;
+    }
+  }
+}
+.day-names {
+  display: flex;
+}
+.day-name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border: 1px solid;
+  font-size: 30px;
+}
